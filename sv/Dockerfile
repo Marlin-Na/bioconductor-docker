@@ -7,5 +7,6 @@ RUN R -e "BiocManager::install(c( \
     'rtracklayer', \
     'StructuralVariantAnnotation', \
     'dplyr', \
+    'tidyr', \
     'readr'), update=FALSE, ask=FALSE)"
 
